@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>detected</title>
+</head>
+<body>
+<p>输入的原图：</p>
+<img src="{{ picture.img.url }}" alt="输入的原图" height="200">
+<p>检测结果如下：</p>
+<img src="{{ fin }}" alt='检测后的图' height="200"><br>
+<a href="{% url "oripage" %}">再试一次？</a>
+</body>
+</html>
